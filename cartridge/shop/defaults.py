@@ -252,6 +252,14 @@ register_setting(
 )
 
 register_setting(
+    name="DEFAULT_ORDER_EMAIL",
+    label=_("Email receipts to"),
+    description=_("All emails will be forwarded to this address."),
+    editable=True,
+    default="",
+)
+
+register_setting(
     name="SHOP_ORDER_STATUS_CHOICES",
     description="Sequence of value/name pairs for order statuses.",
     editable=False,
