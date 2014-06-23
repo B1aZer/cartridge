@@ -252,7 +252,7 @@ register_setting(
 )
 
 register_setting(
-    name="DEFAULT_ORDER_EMAIL",
+    name="SHOP_DEFAULT_ORDER_EMAIL",
     label=_("Email receipts to"),
     description=_("All emails will be forwarded to this address."),
     editable=True,
