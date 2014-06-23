@@ -899,15 +899,15 @@ msgstr "Ваша корзина пуста."
 #: templates/shop/checkout.html:81
 msgid ""
 "This may be due to your session timing out after a period of inactivity."
-msgstr ""
+msgstr "Возможно Вы не совершали никаких действий длительное время."
 
 #: templates/shop/checkout.html:82
 msgid "We apologize for the inconvenience."
-msgstr ""
+msgstr "Мы извиняемся за предоставленные неудобства."
 
 #: templates/shop/checkout.html:84 templates/shop/wishlist.html:40
 msgid "Continue Shopping"
-msgstr ""
+msgstr "Перейти в магазин"
 
 #: templates/shop/complete.html:4 templates/shop/complete.html.py:61
 msgid "Order Complete"
