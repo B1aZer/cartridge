@@ -179,8 +179,8 @@ def send_order_email(request, order):
         warn("Shop email receipt templates have moved from "
              "templates/shop/email/ to templates/email/")
     send_to = order.billing_detail_email
-    if settings.DEFAULT_ORDER_EMAIL:
-        send_to = settings.DEFAULT_ORDER_EMAIL
+    if settings.SHOP_DEFAULT_ORDER_EMAIL:
+        send_to = settings.SHOP_DEFAULT_ORDER_EMAIL
     send_mail_template(settings.SHOP_ORDER_EMAIL_SUBJECT,
                        receipt_template, settings.SHOP_ORDER_FROM_EMAIL,
                        send_to, context=order_context,
